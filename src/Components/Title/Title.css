@@ -1,0 +1,91 @@
+.title-container {
+    background-color: aliceblue;
+    min-height: 40px;
+    margin: 5px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.title-number,
+.buttons {
+    font-size: 50%;
+}
+
+.title-number {
+    width: 12%;
+    background-color: #CDC1FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px 0 0 10px;
+}
+
+[class^="title-name"] {
+    font-size: 50%;
+    width: 80%;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-self: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    border-radius: 0 10px 10px 0;
+}
+
+.edit-title,
+.delete-title,
+.save-title {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.edit-title {
+    background-color: #73C7C7;
+    border-radius: 0 10px 0 0;
+}
+
+.edit-title:hover {
+    background-color: #73c7c7a1;
+}
+
+.save-title {
+    background-color: #0077b6;
+    border-radius: 0 10px 0 0;
+}
+
+.save-title:hover {
+    background-color: #00b4d8;
+}
+
+.delete-title {
+    background-color: #BE3144;
+    border-radius: 0 0 10px 0;
+}
+
+.delete-title:hover {
+    background-color: #be3144b9;
+}
+
+.edit-title-icon,
+.delete-title-icon {
+    width: 40%;
+}
+
+.save-title-icon {
+    width: 50%;
+}
+
+.input-edit {
+    width: 80%;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: aliceblue;
+    text-align: center;
+}

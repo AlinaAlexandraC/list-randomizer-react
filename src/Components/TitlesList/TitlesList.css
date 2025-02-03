@@ -1,0 +1,95 @@
+.titles-list-admin-container {
+    width: 50%;
+    height: 100%;
+    background-color: #BFECFF;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.titles-list-input-bar {
+    width: 100%;
+    height: 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.titles-list-input {
+    width: calc(80% - 14px);
+    height: 50%;
+    border-radius: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: aliceblue;
+}
+
+.titles-list-submit {
+    width: 12%;
+    height: 0;
+    padding-top: 12%;
+    border-radius: 50%;
+    position: relative;
+    user-select: none;
+}
+
+.add-button-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.titles-list-input-bar-label {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: red;
+    position: sticky;
+    top: 10%;
+    z-index: 9;
+}
+
+.list-container {
+    height: 100%;
+    background-color: lavender;
+    box-shadow: 0px 0px 3px 3px;
+    border-radius: 10px;    
+    position: relative;
+}
+
+.titles-list-container {
+    flex-grow: 1;
+    overflow-x: auto;
+    height: 75%;
+}
+
+.titles-list-container::-webkit-scrollbar {
+    width: 0;
+}
+
+.titles-list-length {
+    font-size: 60%;
+    width: 100%;
+    height: 10%;
+    background-color: #CDC1FF;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    z-index: 10;
+    border-radius: 0 0 10px 10px;
+}
