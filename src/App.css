@@ -41,6 +41,10 @@
 }
 
 @media only screen and (max-width: 425px) {
+  .App-header {
+    justify-content: space-around;
+  }
+
   .container {
     height: 80vh;
     flex-direction: column;
