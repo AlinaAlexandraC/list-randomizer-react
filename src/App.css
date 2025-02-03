@@ -16,6 +16,7 @@
   width: calc(70vh - 5px);
   height: 50vh;
   display: flex;
+  align-items: center;
   gap: 5px;
 }
 
@@ -36,4 +37,10 @@
 
 .btn:hover {
   background-color: #cdc1ffb7;
+}
+
+@media only screen and (max-width: 425px) {
+  .container {
+    flex-direction: column;
+  }
 }

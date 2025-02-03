@@ -89,3 +89,9 @@
     background-color: aliceblue;
     text-align: center;
 }
+
+@media only screen and (max-width: 425px) {
+    [class^="title-name"] {
+        font-size: 70%;
+    }
+}
