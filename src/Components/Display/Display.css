@@ -51,7 +51,7 @@
     }
 
     .anime-picture-container {
-        display: none;
+        width: 30%;
     }
     
     .anime-picture-container::before {
